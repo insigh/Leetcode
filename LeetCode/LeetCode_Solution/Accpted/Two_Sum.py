@@ -13,4 +13,3 @@ class Solution(object):
             if opposite in dict and dict[opposite]!=i:
                 return [i,dict[opposite]]
         return []
-    
