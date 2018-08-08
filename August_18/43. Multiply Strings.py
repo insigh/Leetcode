@@ -70,6 +70,40 @@ class Solution(object):
             res.append(add)
         
         return "".join([str(num) for num in list(reversed(res))])
+
+class Solution1(object):
+    def multiply(self, num1, num2):
+        """
+        :type num1: str
+        :type num2: str
+        :rtype: str
+        """
+        num1 = num1[::-1]
+        num2 = num2[::-1]
+        array = [0]*(len(num1)+len(num2))
+        
+        for i in range(len(num1)):
+            for j in range(len(num2)):
+                array[i+j] += int(num1[i])*int(num2[j])
+                
+        ans = []
+        k = len(num1)+len(num2)
+        for i in range(k):
+            up = array[i]//10
+            l = array[i]%10
+            if i<k-1:
+                array[i+1] += up
+            ans.insert(0,l)
+        while ans[0]==0 and len(ans)>1:
+            del ans[0]
+        return "".join(str(num) for num in ans) 
+                
+        
+            
+            
+            
+            
+            
             
                 
         
