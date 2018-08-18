@@ -19,15 +19,33 @@ Output: [1,3,2]
 #         self.left = None
 #         self.right = None
 
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
 class Solution:
     def inorderTraversal(self, root):
         """
         :type root: TreeNode
         :rtype: List[int]
         """
-        self.res = []
-        self.dfs(root)
-        return self.res
+        # self.res = []
+        # self.dfs(root)
+        # return self.res
+        res,stack =[],[]
+        while root or stack:
+            while root:
+                stack.append(root)
+                root = root.left
+            root = stack.pop()
+            res.append(root.val)
+            root = root.right
+            
+        
+        return res
     
     def dfs(self,node):
         if not node:
@@ -35,6 +53,9 @@ class Solution:
         self.dfs(node.left) 
         self.res.append(node.val)
         self.dfs(node.right)
+        
+               
+        
         
                
         
