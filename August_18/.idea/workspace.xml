@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0ccb035-ac7f-4d87-9958-aabfb1c2792c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DFS/100. Same Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS/105. Construct Binary Tree from Preorder and Inorder Traversal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS/106. Construct Binary Tree from Inorder and Postorder Traversal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS/110. Balanced Binary Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS/111. Minimum Depth of Binary Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS/112. Path Sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS/114. Flatten Binary Tree to Linked List.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS/117. Populating Next Right Pointers in Each Node II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS/124. Binary Tree Maximum Path Sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS/99. Recover Binary Search Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineTest/wangyi2018/max_tasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c0ccb035-ac7f-4d87-9958-aabfb1c2792c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +40,12 @@
         <counts>
           <entry key="dummy" value="8" />
           <entry key="py" value="2056" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="PLAIN_TEXT" value="20" />
           <entry key="Python" value="2056" />
         </counts>
       </usages-collector>
@@ -78,7 +66,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DFS/124. Binary Tree Maximum Path Sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
+            <state relative-caret-position="273">
               <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
@@ -322,24 +310,32 @@
       <option name="presentableId" value="Default" />
       <updated>1536722076726</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;14-09-2018&quot;">
+      <created>1536917999212</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536917999213</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1548" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15100671" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15100671" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18168813" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18168813" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32904148" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -356,6 +352,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;14-09-2018&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;14-09-2018&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/126.word_ladder2.py">
@@ -496,7 +496,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DFS/124. Binary Tree Maximum Path Sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="273">
           <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
