@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0ccb035-ac7f-4d87-9958-aabfb1c2792c" name="Default Changelist" comment="" />
+    <list default="true" id="c0ccb035-ac7f-4d87-9958-aabfb1c2792c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DFS/199. Binary Tree Right Side View.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS/200. Number of Islands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS/301. Remove Invalid Parentheses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS/329. Longest Increasing Path in a Matrix(TLE).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,25 +34,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="20" />
+          <entry key="py" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="20" />
+          <entry key="Python" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="py" value="2056" />
+          <entry key="py" value="2086" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="20" />
-          <entry key="Python" value="2056" />
+          <entry key="Python" value="2086" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -63,11 +69,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DFS/124. Binary Tree Maximum Path Sum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
               <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DFS/129. Sum Root to Leaf Numbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DFS/199. Binary Tree Right Side View.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DFS/301. Remove Invalid Parentheses.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DFS/200. Number of Islands.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DFS/329. Longest Increasing Path in a Matrix(TLE).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
         </entry>
@@ -107,6 +158,11 @@
         <option value="$PROJECT_DIR$/DFS/114. Flatten Binary Tree to Linked List.py" />
         <option value="$PROJECT_DIR$/DFS/117. Populating Next Right Pointers in Each Node II.py" />
         <option value="$PROJECT_DIR$/DFS/124. Binary Tree Maximum Path Sum.py" />
+        <option value="$PROJECT_DIR$/DFS/129. Sum Root to Leaf Numbers.py" />
+        <option value="$PROJECT_DIR$/DFS/199. Binary Tree Right Side View.py" />
+        <option value="$PROJECT_DIR$/DFS/301. Remove Invalid Parentheses.py" />
+        <option value="$PROJECT_DIR$/DFS/200. Number of Islands.py" />
+        <option value="$PROJECT_DIR$/DFS/329. Longest Increasing Path in a Matrix(TLE).py" />
       </list>
     </option>
   </component>
@@ -498,6 +554,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFS/129. Sum Root to Leaf Numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFS/199. Binary Tree Right Side View.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFS/301. Remove Invalid Parentheses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFS/200. Number of Islands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFS/329. Longest Increasing Path in a Matrix(TLE).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
